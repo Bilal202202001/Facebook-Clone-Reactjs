@@ -1,0 +1,59 @@
+.MarketPlace{
+    display: flex;
+    position: absolute;
+    top: 9vh;
+}
+.adsPortion{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+}
+.singleAds{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+.sepe{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: rgb(63, 63, 255);
+    font-weight: lighter;
+}
+.custom{
+ /* border: 2px solid black; */
+ padding: 1.5%;
+}
+.custHead{
+    font-size: 0.9rem;
+}
+.iconSet3{
+    padding: 4%;
+    width: 12%;
+}
+.AdName{
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.AdName:hover{
+    color: red;
+    cursor: pointer;
+    padding: 1%;
+}
+.singleAds{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 2%;
+    padding: 3%;
+}
+.AdPic{
+    box-shadow: 0 0 2px grey;
+    border-radius: 10px;
+    height: 80%;
+    width: 90%;
+}

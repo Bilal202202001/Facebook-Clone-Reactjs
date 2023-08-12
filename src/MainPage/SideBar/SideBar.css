@@ -1,0 +1,58 @@
+.sider{
+    width: 23%;
+    background-color: rgb(216, 216, 216);
+}
+.sideBar{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.contents{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    width: 95%;
+    align-items: center;
+    border-radius:5px ;
+    margin: 0.5%;
+    /* justify-content: center; */
+}
+.contents:hover{
+   background-color: rgb(204, 204, 204);
+
+}
+.sImgs{
+    width: 10%;
+    height: 5vh;
+    border-radius: 50%;
+    margin: 2%;
+    background-color: transparent;
+}
+.sname{
+    font-size: 0.9rem;
+    margin: 2%;
+    font-weight: 550;
+    color: rgb(114, 111, 111);
+    background-color: transparent;
+}
+#short{
+    background-color: rgb(216, 216, 216);
+    font-size: 0.9rem;
+    color: rgb(114, 111, 111);
+    width: 98%;
+    padding-left: 1%;
+    /* border: 2px solid black; */
+    /* font-weight: bold; */
+}
+.sideEndNav{
+    flex-direction: row;
+}
+.sideEndNav a{
+    background-color: rgb(216, 216, 216);
+    text-decoration: none;
+    color: rgb(114, 111, 111);
+    font-size: 0.7rem;
+    margin: 1%;
+}

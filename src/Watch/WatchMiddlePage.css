@@ -1,0 +1,44 @@
+.watchPostdata{
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 0 0 3px gray;
+    margin-top: 2%;
+    width: 80%;
+    height: 60vh;
+    /* border: 2px solid black; */
+}
+.pagePosts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.WRealPosts{
+    display: flex;
+    justify-content: space-between;
+}
+.Winfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.WnameId{
+    font-size: 0.9rem;
+}
+.Wtime{
+    font-size: 0.8rem;
+}
+.Wreactions{
+    display: flex;
+}
+.Wicon{
+    width: 10%;
+}
+.Wpostes{
+    height: 45vh;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}

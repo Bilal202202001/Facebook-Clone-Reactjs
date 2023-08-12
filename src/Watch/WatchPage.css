@@ -1,0 +1,87 @@
+.Watchpage{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 9vh;
+}
+
+.watchsideBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+.Sideheading{
+    width: 90%;
+    height: 7%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sHead{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.headIcon{
+    border-radius: 50%;
+    background-color: rgb(194, 193, 193);
+    width: 10%;
+    padding: 1%;
+}
+.headIcon:hover{
+    background-color: rgb(212, 212, 212);
+    padding: 1.5%;
+}
+.Searcher{
+    margin-top: 3%;
+    width: 85%;
+    height: 5%;
+    margin-bottom: 3%;
+}
+.searcherIN{
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    outline: none;
+    border-color: transparent;
+    background-color: rgb(212, 212, 212);
+    padding-left: 5%;
+}
+.searcherIN:hover{
+    background-color: rgb(187, 187, 187);
+}
+.lowerClass{
+    width: 90%;
+    height: 50%;
+    /* border: 2px solid black; */
+}
+.LowerClassElements{
+    border-radius: 10px;
+    margin-top: 1%;
+    width: 95%;
+    height: 15%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.LowerClassElements:hover{
+    background-color: rgb(197, 197, 197);
+}
+.iconSet2{
+    border-radius: 50%;
+    width: 15%;
+    padding: 2%;
+    background-color: rgb(194, 194, 194);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lHeading{
+    font-size: 1rem;
+    background-color: transparent;
+}

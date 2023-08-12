@@ -1,0 +1,40 @@
+.GroupEach{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 10vh;
+    padding: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+}
+.Groups{
+    display: flex;
+    position: absolute;
+    top: 9vh;
+
+}
+.postIngroup{
+    margin-left: 10%;
+    width: 60%;
+}
+.GroupEach:hover{
+    margin: 3%;
+}
+.details{
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.groupIcon{
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 5px;
+    box-shadow:  0 0 3px rgb(56, 56, 255);
+}
+.details1{
+    font-size: 0.9rem;
+}
+.details2{
+    font-size: 0.7rem;
+}
